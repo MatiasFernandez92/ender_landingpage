@@ -362,19 +362,20 @@ nav {
 
 .contact-info {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 🔥 tres columnas iguales */
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-top: 3rem;
-    align-items: stretch; /* todas las tarjetas con misma altura */
-    justify-items: center; /* centra el contenido dentro de cada celda */
+    align-items: stretch;
+    justify-items: center;
 }
 
+/* Contact cards */
 .contact-card {
     background: var(--black);
     padding: 2rem;
     border-radius: 15px;
     border: 2px solid var(--purple);
-    width: 100%; /* 🔥 ocupa todo el ancho disponible en su columna */
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -386,6 +387,23 @@ nav {
 
 .contact-card p {
     color: #ccc;
+}
+
+/* 🔥 MEDIA QUERIES PARA MÓVILES */
+@media (max-width: 768px) {
+    .contact-info {
+        grid-template-columns: 1fr; /* 1 columna en móviles */
+    }
+
+    .contact-card {
+        max-width: 90%; /* opcional, un poco de margen lateral */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contact-info {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en tablets */
+    }
 }
 
 /* Footer */
