@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ender 3D - Impresión 3D en Villa Mercedes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M50 20 L80 35 L80 65 L50 80 L20 65 L20 35 Z' fill='%23FFFFFF'/%3E%3Cpath d='M20 35 L50 50 L50 80 L20 65 Z' fill='%236B4C9A'/%3E%3C/svg%3E" alt="Ender 3D" class="logo">
+                <span class="logo-text">Ender 3D</span>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <img src="data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M100 40 L160 70 L160 130 L100 160 L40 130 L40 70 Z' fill='%23FFFFFF'/%3E%3Cpath d='M40 70 L100 100 L100 160 L40 130 Z' fill='%236B4C9A'/%3E%3C/svg%3E" alt="Ender Logo" class="hero-logo">
+            <h1>Impresión <span>3D</span> de Calidad</h1>
+            <p>Transformamos tus ideas en realidad con tecnología de impresión 3D</p>
+            <div class="location">📍 Villa Mercedes, San Luis</div>
+            <a href="#productos" class="cta-button">Ver Productos</a>
+        </div>
+    </section>
+
+ 
+
+    <!-- Gallery/Products Section -->
+    <section class="gallery" id="productos">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <p class="section-subtitle">Explora algunos de nuestros trabajos recientes</p>
+            
+            <!-- SECCIÓN EDITABLE: Agrega tus imágenes aquí -->
+            <!-- Reemplaza las URLs de las imágenes con las tuyas -->
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="product-placeholder">Soporte Ender</div>
+                    <img src="Soporte-celu.jpeg" alt="Souvenir de mascota personalizable">
+                    <div class="gallery-overlay">    
+                        <h3>Soporte de Celular</h3>
+                        <p>Utiliza tu celu de forma segura</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="product-placeholder">Organizador Ender</div>
+                    <img src="Organizador.jpeg" alt="Souvenir de mascota personalizable">
+                    <div class="gallery-overlay">
+                        <h3>Organizador Ender</h3>
+                        <p>Ordena tu escritorio de forma personalizada</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="product-placeholder">Souvenirs</div>
+                    <img src="Souvenir-personalizable.jpeg" alt="Souvenir de mascota personalizable">
+                    <div class="gallery-overlay">
+                        <h3>Souvenir personalizado</h3>
+                        <p>Decoración temática personalizada</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="product-placeholder">Llaveros</div>
+                    <img src="Llaveros ender.jpeg" alt="Souvenir de mascota personalizable">
+                    <div class="gallery-overlay">
+                        <h3>Diseños para eventos, empresariales y corporativos</h3>
+                        <p>Proyecto personalizado único</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PARA AGREGAR MÁS PRODUCTOS, COPIA Y PEGA ESTE CÓDIGO:
+            <div class="gallery-item">
+                <img src="URL_DE_TU_IMAGEN_AQUI" alt="Descripción">
+                <div class="gallery-overlay">
+                    <h3>Nombre del Producto</h3>
+                    <p>Descripción breve</p>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- Instagram CTA -->
+    <section class="instagram-cta">
+        <div class="container">
+            <h2>¿Te gustó algo?</h2>
+            <p>Visitá nuestro Instagram para ver más productos y hacer tu pedido</p>
+            <a href="https://www.instagram.com/ender.argentina/" target="_blank" class="instagram-button">
+                <span>📷</span>
+                <span>Ver en Instagram</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-subtitle">Estamos en Villa Mercedes para atenderte</p>
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>📍 Ubicación</h3>
+                        <p>Villa Mercedes<br>San Luis, Argentina</p>
+                    </div>
+                    <div class="contact-card">
+                        <h3>📱 Redes Sociales</h3>
+                        <p>Instagram: @ender.argentina<br>Consultas por privado</p>
+                    </div>
+                    <div class="contact-card">
+                        <h3>⏰ Horarios</h3>
+                        <p>Lunes a Viernes<br>9:00 - 18:00 hs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ender 3D - Villa Mercedes, San Luis | Impresión 3D de Calidad</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+// Menu Toggle para móviles
+const menuToggle = document.getElementById('menuToggle');
+const navLinks = document.getElementById('navLinks');
+
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+
+// Cerrar menú al hacer clic en un enlace
+navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+    });
+});
+
+// Smooth Scroll
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
+
+// Animación de elementos al hacer scroll
+const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -100px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+        }
+    });
+}, observerOptions);
+
+// Aplicar animación a las tarjetas
+document.querySelectorAll('.service-card, .gallery-item').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(30px)';
+    el.style.transition = 'all 0.6s ease';
+    observer.observe(el);
+});
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --purple: #6B4C9A;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray: #333333;
+    --light-gray: #f5f5f5;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    line-height: 1.6;
+    color: var(--white);
+    background: var(--black);
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    border-bottom: 2px solid var(--purple);
+}
+
+nav {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    color: var(--white);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: var(--purple);
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background: var(--white);
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, var(--black) 0%, var(--gray) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="2" height="2" fill="%236B4C9A" opacity="0.1"/></svg>');
+    opacity: 0.3;
+}
+
+.hero-content {
+    max-width: 1200px;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero-logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 2rem;
+    animation: fadeInDown 1s ease;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    animation: fadeInUp 1s ease 0.2s backwards;
+}
+
+.hero h1 span {
+    color: var(--purple);
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+    animation: fadeInUp 1s ease 0.4s backwards;
+}
+
+.hero .location {
+    font-size: 1.1rem;
+    color: var(--purple);
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease 0.6s backwards;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 3rem;
+    background: var(--purple);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    animation: fadeInUp 1s ease 0.8s backwards;
+}
+
+.cta-button:hover {
+    background: #8B6BB7;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(107, 76, 154, 0.4);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Services Section */
+.services {
+    padding: 6rem 2rem;
+    background: var(--gray);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    color: #aaa;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.service-card {
+    background: var(--black);
+    border: 2px solid var(--purple);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    border-color: #8B6BB7;
+    box-shadow: 0 10px 30px rgba(107, 76, 154, 0.3);
+}
+
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--purple);
+}
+
+.service-card p {
+    color: #ccc;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 6rem 2rem;
+    background: var(--black);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.gallery-item {
+    position: relative;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.gallery-item:hover {
+    border-color: var(--purple);
+    transform: scale(1.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+    padding: 2rem 1.5rem 1rem;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+    transform: translateY(0);
+}
+
+.gallery-overlay h3 {
+    color: var(--purple);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.gallery-overlay p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+/* CTA Instagram */
+.instagram-cta {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: var(--purple);
+}
+
+.instagram-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.instagram-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.instagram-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 3rem;
+    background: var(--white);
+    color: var(--purple);
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.instagram-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Section */
+.contact {
+    padding: 6rem 2rem;
+    background: var(--gray);
+}
+
+.contact-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 🔥 tres columnas iguales */
+    gap: 2rem;
+    margin-top: 3rem;
+    align-items: stretch; /* todas las tarjetas con misma altura */
+    justify-items: center; /* centra el contenido dentro de cada celda */
+}
+
+.contact-card {
+    background: var(--black);
+    padding: 2rem;
+    border-radius: 15px;
+    border: 2px solid var(--purple);
+    width: 100%; /* 🔥 ocupa todo el ancho disponible en su columna */
+    box-sizing: border-box;
+}
+
+.contact-card h3 {
+    color: var(--purple);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.contact-card p {
+    color: #ccc;
+}
+
+/* Footer */
+footer {
+    background: var(--black);
+    text-align: center;
+    padding: 2rem;
+    border-top: 2px solid var(--purple);
+}
+
+footer p {
+    color: #888;
+}
+
+/* EDITABLE SECTION - Agregar más productos aquí */
+.product-placeholder {
+    background: linear-gradient(135deg, var(--purple), #8B6BB7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--black);
+        flex-direction: column;
+        padding: 2rem;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        border-bottom: 2px solid var(--purple);
+    }
+
+    .nav-links.active {
+        transform: translateX(0);
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-logo {
+        width: 150px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
