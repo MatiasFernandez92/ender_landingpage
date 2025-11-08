@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ender 3D - Impresión 3D en Villa Mercedes</title>
-    <link rel="icon" href="favicon.png" type="image/png">
+    
+    <!-- SEO Optimizado -->
+    <title>Ender 3D - Impresión 3D en Villa Mercedes, San Luis</title>
+    <meta name="description" content="Diseños 3D personalizados en Villa Mercedes. Organizadores, decoración, souvenirs y más. Entregas en San Luis. ¡Hace tu pedido por WhatsApp!">
+    <meta name="keywords" content="impresión 3D, Villa Mercedes, San Luis, diseños personalizados, souvenirs, organizadores, decoración 3D">
+    <link rel="icon" href="Iconos/favicon.png" type="image/png">
 
+    <!-- Open Graph para redes sociales -->
+    <meta property="og:title" content="Ender 3D - Impresión 3D en Villa Mercedes">
+    <meta property="og:description" content="Transformamos tus ideas en realidad con impresión 3D de calidad">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ender-landingpage.vercel.app">
+    
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,8 +24,8 @@
     <header>
         <nav>
             <div class="logo-container">
-            <img src="images/logo.png" alt="Ender 3D" class="logo">
-            <span class="logo-text"></span>
+                <img src="Iconos/logo.png" alt="Ender 3D" class="logo">
+                <span class="logo-text"></span>
             </div>
             <div class="menu-toggle" id="menuToggle">
                 <span></span>
@@ -23,110 +34,264 @@
             </div>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#como-funciona">¿Cómo funciona?</a></li>
                 <li><a href="#productos">Productos</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section - MEJORADO -->
     <section class="hero" id="inicio">
         <div class="hero-content">
-            <img src="images/cubito.png" alt="Ender Logo" class="hero-logo">
-            <h1>Impresión <span>3D</span> de Calidad</h1>
-            <p>Transformamos tus ideas en realidad con tecnología de impresión 3D</p>
+            <img src="Iconos/cubito.png" alt="Ender Logo" class="hero-logo">
+            <h1>Dale vida a tus <span>ideas</span></h1>
+            <p>Diseños únicos en impresión 3D para tu hogar, oficina o ese regalo especial</p>
             <div class="location">📍 Villa Mercedes, San Luis</div>
-            <a href="#productos" class="cta-button">Ver Productos</a>
+            <div class="hero-buttons">
+                <a href="#productos" class="cta-button primary">Ver Productos</a>
+                <a href="https://wa.me/5492657705569?text=Hola!%20Vi%20tu%20web%20y%20quiero%20consultar%20" target="_blank" class="cta-button secondary">Hacer Pedido</a>
+            </div>
+            <!-- Beneficios rápidos -->
+            <div class="hero-badges">
+                <div class="badge">✓ Entregas en Villa Mercedes</div>
+                <div class="badge">✓ Diseños personalizados</div>
+                <div class="badge">✓ 3-5 días de producción</div>
+            </div>
         </div>
     </section>
 
- 
+    <!-- NUEVA SECCIÓN: ¿Cómo funciona? -->
+    <section class="how-it-works" id="como-funciona">
+        <div class="container">
+            <h2 class="section-title">¿Cómo hacemos tu pedido?</h2>
+            <p class="section-subtitle">Simple, rápido y personalizado</p>
+            
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">🎨</div>
+                    <h3>Elegís o diseñamos</h3>
+                    <p>Mirás nuestro catálogo o nos contás tu idea. Trabajamos juntos en el diseño perfecto para vos.</p>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">🖨️</div>
+                    <h3>Imprimimos</h3>
+                    <p>Usamos materiales de alta calidad (PLA+) y tecnología de última generación para crear tu producto.</p>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">📦</div>
+                    <h3>Te lo entregamos</h3>
+                    <p>Entregas en Villa Mercedes o envíos a todo el país. En 3-5 días lo tenés en tus manos.</p>
+                </div>
+            </div>
+            
+            <div class="work-info">
+                <div class="info-item">
+                    <strong>⏱️ Tiempo:</strong> 3-5 días hábiles
+                </div>
+                <div class="info-item">
+                    <strong>💳 Pagos:</strong> Efectivo, Transferencia, Mercado Pago
+                </div>
+                <div class="info-item">
+                    <strong>📍 Entregas:</strong> Villa Mercedes y envíos
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Gallery/Products Section -->
+    <!-- Gallery/Products Section - MEJORADO -->
     <section class="gallery" id="productos">
         <div class="container">
             <h2 class="section-title">Nuestros Productos</h2>
-            <p class="section-subtitle">Explora algunos de nuestros trabajos recientes</p>
+            <p class="section-subtitle">Diseños funcionales y únicos para cada necesidad</p>
             
-            <!-- SECCIÓN EDITABLE: Agrega tus imágenes aquí -->
-            <!-- Reemplaza las URLs de las imágenes con las tuyas -->
+            <!-- Grid de productos con PRECIOS -->
             <div class="gallery-grid">
+                <!-- Producto 1 -->
                 <div class="gallery-item">
-                    <div class="product-placeholder">Soporte Ender</div>
-                    <img src="Soporte-celu.jpeg" alt="Souvenir de mascota personalizable">
+                    <img src="Imagenes/Soporte-celu.jpeg" alt="Soporte de celular Ender">
                     <div class="gallery-overlay">    
                         <h3>Soporte de Celular</h3>
-                        <p>Utiliza tu celu de forma segura</p>
+                        <p>Ideal para escritorio, cocina o mesa de luz. Base estable y ángulo perfecto.</p>
+                        <div class="product-price">Desde $1.800</div>
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #000"></span>
+                            <span class="color-dot" style="background: #fff; border: 1px solid #ccc"></span>
+                            <span class="color-dot" style="background: #6B4C9A"></span>
+                        </div>
+                        <a href="https://wa.me/5492657705569?text=Hola!%20Quiero%20consultar%20por%20el%20Soporte%20de%20Celular" target="_blank" class="product-cta">Pedir ahora 💬</a>
                     </div>
                 </div>
+                
+                <!-- Producto 2 -->
                 <div class="gallery-item">
-                    <div class="product-placeholder">Organizador Ender</div>
-                    <img src="Organizador.jpeg" alt="Souvenir de mascota personalizable">
+                    <img src="Imagenes/Organizador.jpeg" alt="Organizador de escritorio">
                     <div class="gallery-overlay">
-                        <h3>Organizador Ender</h3>
-                        <p>Ordena tu escritorio de forma personalizada</p>
+                        <h3>Organizador Multifunción</h3>
+                        <p>Mantené todo en orden: celular, lapiceras, clips y más. Perfecto para home office.</p>
+                        <div class="product-price">Desde $4.800</div>
+                        <div class="product-colors">
+                            <span class="color-dot" style="background: #87CEEB"></span>
+                            <span class="color-dot" style="background: #FFB6C1"></span>
+                            <span class="color-dot" style="background: #fff; border: 1px solid #ccc"></span>
+                            <span class="color-dot" style="background: #000"></span>
+                        </div>
+                        <a href="https://wa.me/5492657705569?text=Hola!%20Quiero%20consultar%20por%20el%20Organizador%20Ender" target="_blank" class="product-cta">Pedir ahora 💬</a>
                     </div>
                 </div>
+                
+                <!-- Producto 3 -->
                 <div class="gallery-item">
-                    <div class="product-placeholder">Souvenirs</div>
-                    <img src="Souvenir-personalizable.jpeg" alt="Souvenir de mascota personalizable">
+                    <img src="Imagenes/Souvenir-personalizable.jpeg" alt="Souvenirs personalizados">
                     <div class="gallery-overlay">
-                        <h3>Souvenir personalizado</h3>
-                        <p>Decoración temática personalizada</p>
+                        <h3>Souvenirs Personalizados</h3>
+                        <p>Llaveros, figuras y decoración única para eventos, cumpleaños o regalos especiales.</p>
+                        <div class="product-price">Desde $800 c/u</div>
+                        <div class="product-badge">Personalizables</div>
+                        <a href="https://wa.me/5492657705569?text=Hola!%20Quiero%20cotizar%20souvenirs%20personalizados" target="_blank" class="product-cta">Cotizar 💬</a>
                     </div>
                 </div>
+                
+                <!-- Producto 4 -->
                 <div class="gallery-item">
-                    <div class="product-placeholder">Llaveros</div>
-                    <img src="Llaveros ender.jpeg" alt="Souvenir de mascota personalizable">
+                    <img src="Imagenes/Llaveros ender.jpeg" alt="Llaveros personalizados">
                     <div class="gallery-overlay">
-                        <h3>Diseños para eventos, empresariales y corporativos</h3>
-                        <p>Proyecto personalizado único</p>
+                        <h3>Llaveros Corporativos</h3>
+                        <p>Diseños para eventos, empresas y proyectos especiales. Logo o diseño personalizado.</p>
+                        <div class="product-price">Consultar por cantidad</div>
+                        <div class="product-badge">Empresarial</div>
+                        <a href="https://wa.me/5492657705569?text=Hola!%20Quiero%20consultar%20por%20llaveros%20corporativos" target="_blank" class="product-cta">Cotizar proyecto 💬</a>
                     </div>
                 </div>
+                <!-- Producto 5 -->
+                <div class="gallery-item">
+                    <img src="Imagenes/NOFACE.jpeg" alt="Figuras coleccionables">
+                    <div class="gallery-overlay">
+                        <h3>Figuras coleccionables</h3>
+                        <p>Diseños unicos y coleccionables de series, animes, peliculas, etc.</p>
+                        <div class="product-price">Consultar por modelos disponibles</div>
+                        <div class="product-badge">Empresarial</div>
+                        <a href="https://wa.me/5492657705569?text=Hola!%20Quiero%20consultar%20por%20figuras%20coleccionables" target="_blank" class="product-cta">Cotizar proyecto 💬</a>
+                    </div>
+                </div>
+                <!-- Producto 6 -->
+                <div class="gallery-item">
+                    <img src="Imagenes/ID-KIRA-LOGO.jpeg" alt="Id mascotas personalizado">
+                    <div class="gallery-overlay">
+                        <h3>Identificador mascotas personalizado</h3>
+                        <p>Dale un regalo a tu mascota y protege a tu perro con tu numero de telefono. Varios modelos y colores.</p>
+                        <div class="product-price">Consultar por modelos disponibles</div>
+                        <div class="product-badge">Empresarial</div>
+                        <a href="https://wa.me/5492657705569?text=Hola!%20Quiero%20consultar%20por%20id%20mascotas" target="_blank" class="product-cta">Cotizar proyecto 💬</a>
+                    </div>
+                </div>                                
             </div>
+            
 
-            <!-- PARA AGREGAR MÁS PRODUCTOS, COPIA Y PEGA ESTE CÓDIGO:
-            <div class="gallery-item">
-                <img src="URL_DE_TU_IMAGEN_AQUI" alt="Descripción">
-                <div class="gallery-overlay">
-                    <h3>Nombre del Producto</h3>
-                    <p>Descripción breve</p>
-                </div>
+            <!-- CTA para más productos -->
+            <div class="more-products">
+                <p>¿Buscás algo específico?</p>
+                <a href="https://wa.me/5492657705569?text=Hola!%20Tengo%20una%20idea%20para%20un%20diseño%20personalizado" target="_blank" class="cta-button">Diseño Personalizado</a>
             </div>
-            -->
         </div>
     </section>
 
-    <!-- Instagram CTA -->
+    <!-- NUEVA SECCIÓN: Testimonios -->
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+            <p class="section-subtitle">Clientes satisfechos en San Luis</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"El organizador quedó perfecto para mi escritorio. Calidad increíble y súper funcional!"</p>
+                    <div class="testimonial-author">
+                        <strong>Paola Dominguez</strong>
+                        <span>Villa Mercedes</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Me hicieron souvenirs personalizados para el cumple de mi nieta. Quedaron hermosos!"</p>
+                    <div class="testimonial-author">
+                        <strong>Norma Benitez</strong>
+                        <span>Merlo</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Entrega rápida, buena atención y el producto quedó mejor de lo que esperaba. Muy recomendable!"</p>
+                    <div class="testimonial-author">
+                        <strong>Pablo Martinez </strong>
+                        <span>Villa Mercedes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram CTA - MEJORADO -->
     <section class="instagram-cta">
         <div class="container">
-            <h2>¿Te gustó algo?</h2>
-            <p>Visitá nuestro Instagram para ver más productos y hacer tu pedido</p>
-            <a href="https://www.instagram.com/ender.argentina/" target="_blank" class="instagram-button">
-                <span>📷</span>
-                <span>Ver en Instagram</span>
-            </a>
+            <h2>¿Querés ver más diseños?</h2>
+            <p>Seguinos en Instagram para ver productos nuevos, ofertas y el proceso detrás de cada creación</p>
+            <div class="social-buttons">
+                <a href="https://www.instagram.com/ender.argentina/" target="_blank" class="instagram-button">
+                    <span>📸</span>
+                    <span>@ender.argentina</span>
+                </a>
+            </div>
+            <p class="social-stats">+100 productos entregados</p>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section - MEJORADO con Formulario -->
     <section class="contact" id="contacto">
         <div class="container">
             <div class="contact-content">
                 <h2 class="section-title">Contacto</h2>
                 <p class="section-subtitle">Estamos en Villa Mercedes para atenderte</p>
+                
+                <!-- Formulario de contacto -->
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Hacé tu consulta o pedido</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Teléfono o WhatsApp" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" placeholder="Contanos qué necesitás..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Enviar consulta por WhatsApp</button>
+                        <p class="form-note">Te responderemos en la brevedad</p>
+                    </form>
+                </div>
+
+                <!-- Info de contacto -->
                 <div class="contact-info">
                     <div class="contact-card">
                         <h3>📍 Ubicación</h3>
                         <p>Villa Mercedes<br>San Luis, Argentina</p>
                     </div>
                     <div class="contact-card">
-                        <h3>📱 Telefono </h3>
-                        <p> 📞 2657-705569 <br>Consultanos via whatsapp</p>
+                        <h3>📱 Teléfono</h3>
+                        <p>📞 2657-705569<br>Consultanos vía WhatsApp</p>
                     </div>
                     <div class="contact-card">
                         <h3>⏰ Horarios</h3>
-                        <p>Lunes a Sabado<br>9:00/13:00 hs - 15:00/20:00 hs </p>
+                        <p>Lunes a Sábado<br>9:00/13:00 hs - 15:00/20:00 hs</p>
                     </div>
                 </div>
             </div>
@@ -136,8 +301,21 @@
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Ender 3D - Villa Mercedes, San Luis | Impresión 3D de Calidad</p>
+        <div class="footer-links">
+            <a href="https://www.instagram.com/ender.argentina/" target="_blank">Instagram</a>
+            <span>•</span>
+            <a href="https://wa.me/5492657705569" target="_blank">WhatsApp</a>
+        </div>
     </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/5492657705569?text=Hola!%20Vi%20tu%20web%20y%20quiero%20consultar%20" target="_blank" class="whatsapp-float" id="whatsappFloat">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path fill="white" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+        <span class="whatsapp-tooltip">¿Consultas?<br>Chateá ahora</span>
+    </a>
 
     <script src="script.js"></script>
 </body>
-</html>
+</html>s
